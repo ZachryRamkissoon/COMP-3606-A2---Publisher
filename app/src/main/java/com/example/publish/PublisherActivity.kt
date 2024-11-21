@@ -69,6 +69,7 @@ class PublisherActivity : AppCompatActivity() {
                         put("longitude", location.longitude)
                         put("id", clientID)
                         put("timestamp", location.time)
+                        put("speed", location.speed)
                     }.toString()
                     try{
                         client?.publishWith()?.topic("assignment/location")?.payload(textToSend.toByteArray())?.send()
