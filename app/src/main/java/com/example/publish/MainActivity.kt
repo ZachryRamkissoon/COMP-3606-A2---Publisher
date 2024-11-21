@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.publisher.R
+import com.example.publish.R
 
 class MainActivity : AppCompatActivity() {
     private val requestCode = 1234
