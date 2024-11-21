@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.publisher"
+    namespace = "com.example.publish"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.publisher"
+        applicationId = "com.example.publish"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
